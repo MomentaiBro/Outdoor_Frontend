@@ -12,13 +12,19 @@
     <h1 class="nav-h1">Rate Your Outdoor Activities!</h1>
         <nav> 
             <ul class="nav-bar">
-                <li><a href="about.html">About</a></li>
-                <li><a href="user.html">Users</a></li>
-                <li><a href="trending.html">Trending</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="new_activity.html">New</a></li>
+                <li><a class="nav-link" href="trending.html">Trending</a></li>
             </ul>
         </nav>    
     </header>
-    <h1> Hello! </h1>
+    <section id="search-activity">
+        <form method="get" action="http://localhost:3001/">
+            <input type="text" name="search" placeholder="Search Activities">
+            <input type="submit" value="Search">
+        </form>
+    </section>
+
     <main> 
         <h2>Activities</h2>
         <section>
