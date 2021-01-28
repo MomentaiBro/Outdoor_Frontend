@@ -247,3 +247,6 @@ input[type=submit] {
     align-self: center;
 }
 
+p.rate-button {
+    padding-top: 30px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="newRating.js" defer></script>
+        <title>Make a new Rating</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="nav-h1">Rate Your Outdoor Activities!</h1>
+                <nav> 
+                    <ul class="nav-bar">
+                        <li><a class="nav-link" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="about.html">About</a></li>
+                        <li><a class="nav-link" href="new_activity.html">New</a></li>
+                        <li><a class="nav-link" href="trending.html">Trending</a></li>
+                    </ul>
+                </nav>    
+        </header>
+        <h1>Rate an Activity!</h1>
+        <form method="post" action="http://localhost:3000/ratings/">
+            <select id="activity-dropdown" name="activity_id">
+
+            </select>
+            <select id="rating-dropdown" name="rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <input type="submit">
+        </form>
+    </body>
+</html>
