@@ -29,7 +29,7 @@ fetch(activityUrl)
                     <h1>${activity.name}</h1>
                     <p>Description: ${activity.description}</p>
                     <p>Equipment: ${activity.equipment}</p>
-                    <p>Average rating: ${ratingAverage}</p>
+                    <p>Average rating: ${ratingAverage.toFixed(1)}</p>
                     <p class="rate-button"><a class="nav-link" href="newRating.html">Rate it!</a></p>
                     </div>
                 </div>
