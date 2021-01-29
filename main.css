@@ -93,7 +93,7 @@ li {
 }
 
 a.nav-link {
-    background-color:green;
+    background-color:rgb(0, 119, 128);
     box-shadow: 0 5px 5px gray;
     color: white;
     padding: 1em 1.5em;
