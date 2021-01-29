@@ -60,12 +60,17 @@ body {
     align-items: center;
 }
 
-.background-image-container {
+/* .background-image-container {
     mix-blend-mode: difference;
-}
+} */
 
 img.background-image {
-    position: sticky;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    max-height: 500px;
 }
 
 header {
