@@ -4,6 +4,10 @@
 
 The Outdoor Activity Rating web app is your number one place to rate your favorite outdoor activites! It gives the user the ability to add new activities to the site, as well as rate new and exisiting activites. It also will display activties that have many ratings as trending to see the most popular, or controverisal activities.
 
+## Backend
+
+https://github.com/ghesketh76/Outdoor-App-Backend
+
 ## Technologies
 * HTML5
 * CSS
