@@ -25,6 +25,6 @@ To get started, clone the repository to your computer. Then ensure you have the 
 
 ## Contact
 
-Created by [Grant Hesketh](https://www.linkedin.com/in/granthesketh/) and [Alexander Sherwin](URL)
+Created by [Grant Hesketh](https://www.linkedin.com/in/granthesketh/) and [Alexander Sherwin](alx.sherwin@gmail.com)
 
 Feel free to contact us!
