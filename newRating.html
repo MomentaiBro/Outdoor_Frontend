@@ -19,19 +19,23 @@
                     </ul>
                 </nav>    
         </header>
-        <h1>Rate an Activity!</h1>
-        <form method="post" action="http://localhost:3000/ratings/">
-            <select id="activity-dropdown" name="activity_id">
+        
+        <section id="rate-activity"> 
+            <h1 id="rating-title">Rate an Activity</h1>
+            <form id="rating-form" method="post" action="http://localhost:3000/ratings/">
+                <select id="activity-dropdown" name="activity_id">
 
-            </select>
-            <select id="rating-dropdown" name="rating">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-            <input type="submit">
-        </form>
+                </select>
+                <label for="rating-dropdown">Rating</label>
+                <select id="rating-dropdown" name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <input id="rating-submit" type="submit">
+            </form>
+        </section>
     </body>
 </html>

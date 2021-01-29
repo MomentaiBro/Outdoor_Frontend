@@ -60,6 +60,14 @@ body {
     align-items: center;
 }
 
+.background-image-container {
+    mix-blend-mode: difference;
+}
+
+img.background-image {
+    position: sticky;
+}
+
 header {
     margin: 15px;
     display: flex; 
@@ -188,7 +196,6 @@ section {
     padding-bottom: 5px;
 }
 
-
 /* This is for the About.html page */
 
 
@@ -198,21 +205,34 @@ section {
 }
 
 .grant-column {
-    display: flex;
     margin: 10px;
     background-color: rgba(168, 198, 209, 0.774);
     padding: 10px;
-    height: 300px;
-    
 }
 
 .alexander-column {
-    display: flex;
     margin: 10px;
     background-color: rgba(168, 198, 209, 0.774);
     padding: 10px;
-    height: 300px;
 }
+
+.main-about h2{
+    padding-bottom: 10px;
+    text-align: right;
+    font-size: 25px;
+    color: white;
+}
+
+.main-about img {
+    display:block;
+    max-height: 200px;
+    float:left;
+}
+
+.main-about p {
+    margin-left: 210px;
+}
+
 
 /* Below is for New-Activity.html  */
 
@@ -231,6 +251,55 @@ section {
     text-align: center;
 }
 
+/* Below is for rate-activity form styling */
+
+#rate-activity {
+    display:flex;
+    background-color:rgba(168, 198, 209, 0.774);
+    margin:auto;
+    width:30%;
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(46, 59, 65, 0.774);
+    border: 2px rgba(24, 79, 105, 0.375) solid;
+}
+
+#rating-title {
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+#rating-form {
+    padding-bottom: 20px;
+}
+
+select {
+    width: 80%;
+    padding: 12px;
+    margin: 8px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+label {
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    padding-left: 33px;
+}
+
+#rating-submit {
+    padding-left: 115px;
+    padding-right: 122px;
+    text-align: center;
+}
+
+/* Below is for the New Activity Form */
+
 form {
     align-items: center;
 }
@@ -244,9 +313,10 @@ input[type=text] {
 }
 
 input[type=submit] {
-    align-self: center;
+    text-align: center;
 }
 
 p.rate-button {
     padding-top: 30px;
 }
+
