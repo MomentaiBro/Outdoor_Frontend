@@ -56,7 +56,7 @@ body {
     background-color:rgba(116, 179, 144, 0.575);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -69,8 +69,8 @@ img.background-image {
     position: fixed;
     bottom: 0;
     left: 0;
+    width: 100%;
     z-index: -100;
-    max-height: 500px;
 }
 
 header {
@@ -111,9 +111,9 @@ a.nav-link:active {
     top: 5px;
 }
 
-/* a.sumbit-button{
-    
-} */
+/* .sumbit-button {
+    width: 200px;  
+}  */
 
 h1.nav-h1 {
     color: white;
@@ -125,6 +125,7 @@ main {
     display:flex; 
     flex-direction: column;
     align-items: center;
+    padding: 50px;
 }
 section {
     display: flex;
@@ -151,7 +152,8 @@ section {
     width: 300px;
     height: 300px;
     perspective: 1000px;
-    margin: 15px
+    padding-left: 20px;
+    margin: 20px;
 }
   
 .flip-card-inner {
@@ -246,6 +248,9 @@ section {
     background-color:rgba(168, 198, 209, 0.774);
     margin:auto;
     width:20%;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 20px;
 }
 
 #new-activity-title {
@@ -279,7 +284,9 @@ section {
 }
 
 #rating-form {
-    padding-bottom: 20px;
+    
+    padding: 20px;
+    
 }
 
 select {
@@ -298,9 +305,9 @@ label {
 }
 
 #rating-submit {
-    padding-left: 115px;
-    padding-right: 122px;
-    text-align: center;
+    padding-left: 30%;
+    padding-right: 20%;
+    align-content: center;
 }
 
 /* Below is for the New Activity Form */
@@ -325,3 +332,7 @@ p.rate-button {
     padding-top: 30px;
 }
 
+#search-activity form{
+   width: 500px;
+    
+}
