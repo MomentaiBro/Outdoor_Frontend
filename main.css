@@ -94,7 +94,7 @@ li {
 
 a.nav-link {
     background-color:rgb(0, 119, 128);
-    box-shadow: 0 5px 5px gray;
+    box-shadow: 0 5px 5px rgb(12, 85, 90);
     color: white;
     padding: 1em 1.5em;
     position: relative;
@@ -103,7 +103,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    background-color: green;
+    background-color: rgb(0, 119, 128);
 }
 
 a.nav-link:active {
